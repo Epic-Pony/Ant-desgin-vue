@@ -1,3 +1,11 @@
+/*
+ * @Description: It was written by Pony
+ * @Version: 2.0
+ * @Autor: Pony
+ * @Date: 2020-08-19 10:00:00
+ * @LastEditors: Pony
+ * @LastEditTime: 2020-08-22 14:47:13
+ */
 // 此配置为系统默认设置，需修改的设置项，在src/config/config.js中添加修改项即可。也可直接在此文件中修改。
 module.exports = {
   lang: 'CN',                           //语言，可选 CN(简体)、HK(繁体)、US(英语)，也可扩展其它语言
@@ -15,7 +23,7 @@ module.exports = {
   multiPage: false,                     //多页签模式，true:开启，false:不开启
   hideSetting: false,                   //隐藏设置抽屉，true:隐藏，false:不隐藏
   systemName: 'Vue Antd Admin',         //系统名称
-  copyright: '2018 ICZER 工作室出品',    //copyright
+  copyright: '2018 ponyAdmin',    //copyright
   asyncRoutes: false,                    //异步加载路由，true:开启，false:不开启
   animate: {                            //动画设置
     disabled: false,                    //禁用动画，true:禁用，false:启用
@@ -24,7 +32,7 @@ module.exports = {
   },
   footerLinks: [                        //页面底部链接，{link: '链接地址', name: '名称/显示文字', icon: '图标，支持 ant design vue 图标库'}
     {link: 'https://pro.ant.design', name: 'Pro首页'},
-    {link: 'https://github.com/iczer/vue-antd-admin', icon: 'github'},
+    {link: 'https://github.com/Anniezandr/Ant-desgin-vue', icon: 'github'},
     {link: 'https://ant.design', name: 'Ant Design'}
   ],
 }

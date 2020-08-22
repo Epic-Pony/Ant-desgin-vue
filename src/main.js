@@ -1,3 +1,11 @@
+/*
+ * @Description: It was written by Pony
+ * @Version: 2.0
+ * @Autor: Pony
+ * @Date: 2020-08-19 10:00:00
+ * @LastEditors: Pony
+ * @LastEditTime: 2020-08-22 14:35:09
+ */
 import Vue from 'vue'
 import App from './App.vue'
 import {initRouter} from './router'
@@ -10,11 +18,14 @@ import 'animate.css/source/animate.css'
 import Plugins from '@/plugins'
 import {initI18n} from '@/utils/i18n'
 import bootstrap from '@/bootstrap'
+import dataV from '@jiaminghi/data-view'
+
 
 const router = initRouter(store.state.setting.asyncRoutes)
 const i18n = initI18n('CN', 'US')
 bootstrap({router, store, i18n})
 
+Vue.use(dataV)
 Vue.config.productionTip = false
 Vue.use(Viser)
 Vue.use(Antd)
