@@ -4,7 +4,7 @@
  * @Autor: Pony
  * @Date: 2020-08-19 10:00:00
  * @LastEditors: Pony
- * @LastEditTime: 2020-08-22 14:47:13
+ * @LastEditTime: 2020-08-23 17:16:33
  */
 // 此配置为系统默认设置，需修改的设置项，在src/config/config.js中添加修改项即可。也可直接在此文件中修改。
 module.exports = {

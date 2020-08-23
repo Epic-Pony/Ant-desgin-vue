@@ -44,11 +44,6 @@ const options = {
               name: '分析页',
               component: () => import('@/pages/dashboard/analysis'),
             },
-            // {
-            //   path: 'bigScreen',
-            //   name: '可视化设计',
-            //   component: () => import('@/pages/BigScreenDesign/index.vue'),
-            // }
           ]
         },
         {
