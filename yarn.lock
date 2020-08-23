@@ -1019,13 +1019,6 @@
     "@babel/types" "^7.4.4"
     esutils "^2.0.2"
 
-"@babel/runtime@^7.5.5":
-  version "7.11.2"
-  resolved "https://registry.yarnpkg.com/@babel/runtime/-/runtime-7.11.2.tgz#f549c13c754cc40b87644b9fa9f09a6a95fe0736"
-  integrity sha512-TeWkU52so0mPtDcaCTxNBI/IHiz0pZgr8VEFqXFtZWpYD08ZB6FaSwVAS8MKRQAP3bYKiVjwysOJgMFY28o6Tw==
-  dependencies:
-    regenerator-runtime "^0.13.4"
-
 "@babel/runtime@^7.8.4", "@babel/runtime@^7.9.6":
   version "7.10.2"
   resolved "https://registry.npm.taobao.org/@babel/runtime/download/@babel/runtime-7.10.2.tgz#d103f21f2602497d38348a32e008637d506db839"
@@ -1139,53 +1132,6 @@
     cssnano "^4.0.0"
     cssnano-preset-default "^4.0.0"
     postcss "^7.0.0"
-
-"@jiaminghi/bezier-curve@*":
-  version "0.0.9"
-  resolved "https://registry.yarnpkg.com/@jiaminghi/bezier-curve/-/bezier-curve-0.0.9.tgz#5196aca93c8b061a612b4c3eabcedf9490cef6ee"
-  integrity sha512-u9xJPOEl6Dri2E9FfmJoGxYQY7vYJkURNX04Vj64tdi535tPrpkuf9Sm0lNr3QTKdHQh0DdNRsaa62FLQNQEEw==
-  dependencies:
-    "@babel/runtime" "^7.5.5"
-
-"@jiaminghi/c-render@*":
-  version "0.4.3"
-  resolved "https://registry.yarnpkg.com/@jiaminghi/c-render/-/c-render-0.4.3.tgz#982ebd8f71b443bb9507834227834973ebd9b6d8"
-  integrity sha512-FJfzj5hGj7MLqqqI2D7vEzHKbQ1Ynnn7PJKgzsjXaZpJzTqs2Yw5OSeZnm6l7Qj7jyPAP53lFvEQNH4o4j6s+Q==
-  dependencies:
-    "@babel/runtime" "^7.5.5"
-    "@jiaminghi/bezier-curve" "*"
-    "@jiaminghi/color" "*"
-    "@jiaminghi/transition" "*"
-
-"@jiaminghi/charts@*":
-  version "0.2.17"
-  resolved "https://registry.yarnpkg.com/@jiaminghi/charts/-/charts-0.2.17.tgz#de32d846b8e1209795c0720e32f76a916705dda3"
-  integrity sha512-Tp467RSTuG+oOq1AJ4xGSWJUfu7Vbq/WPwiXjt8N5vxrBf8nAjr9PGrk+65sfrU229+T/EQG15HPGlpSb7YLVQ==
-  dependencies:
-    "@babel/runtime" "^7.5.5"
-    "@jiaminghi/c-render" "*"
-
-"@jiaminghi/color@*":
-  version "0.1.1"
-  resolved "https://registry.yarnpkg.com/@jiaminghi/color/-/color-0.1.1.tgz#bddf9012dfce6982d3829a983ffeb91ee9dda7b6"
-  integrity sha512-M09+Sb5HGqVim0zo+nG5gU1v+6gXT8ptr0BZR6dMGt83XmCJgnZtO8s7llTW4hLFFFM5co6geZvTekqLpSPAAQ==
-  dependencies:
-    "@babel/runtime" "^7.5.5"
-
-"@jiaminghi/data-view@^2.9.8":
-  version "2.9.8"
-  resolved "https://registry.yarnpkg.com/@jiaminghi/data-view/-/data-view-2.9.8.tgz#9e8d71642f4dd0f41aee5be78a368a65cc8f1e1b"
-  integrity sha512-LFk2TBjQborzL8Ve+hlsayCgjlO4fp6Y5QBXIU//wduCmJvWvv5O+QpVKVbOVkrJPhIFhwrQ6+zSGJd3C8uOUA==
-  dependencies:
-    "@babel/runtime" "^7.5.5"
-    "@jiaminghi/charts" "*"
-
-"@jiaminghi/transition@*":
-  version "1.1.11"
-  resolved "https://registry.yarnpkg.com/@jiaminghi/transition/-/transition-1.1.11.tgz#576d8af092434b34201eba5eaecc79dd33c8ad8c"
-  integrity sha512-owBggipoHMikDHHDW5Gc7RZYlVuvxHADiU4bxfjBVkHDAmmck+fCkm46n2JzC3j33hWvP9nSCAeh37t6stgWeg==
-  dependencies:
-    "@babel/runtime" "^7.5.5"
 
 "@mrmlnc/readdir-enhanced@^2.2.1":
   version "2.2.1"

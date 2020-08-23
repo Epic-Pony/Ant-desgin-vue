@@ -10,7 +10,7 @@
             <trend style="margin-right: 16px" :term="$t('wow')" :percent="12" :is-increase="true" :scale="0" />
             <trend :term="$t('dod')" :target="100" :value="89" :scale="0" />
           </div>
-          <div slot="footer">{{$ta('daily|sales', 'p')}}<span> ￥234.56</span></div>
+          <div slot="footer">{{$ta('daily|sales', 'p')}}<span> ￥234.56</span><a-icon type="plus">111</a-icon></div>
         </chart-card>
       </a-col>
       <a-col :sm="24" :md="12" :xl="6">

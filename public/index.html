@@ -4,7 +4,7 @@
  * @Autor: Pony
  * @Date: 2020-08-19 10:00:00
  * @LastEditors: Pony
- * @LastEditTime: 2020-08-23 17:19:57
+ * @LastEditTime: 2020-08-23 23:54:36
 -->
 <!DOCTYPE html>
 <html lang="en" class="beauty-scroll">
@@ -30,7 +30,7 @@
       min-height: 100vh;
       background: linear-gradient(143deg, rgba(48, 121, 200, 1), rgba(60, 82, 178, 1))
     }
-    svg {
+    svg#svgLoading {
       width: 0;
       height: 0;
     }
@@ -106,7 +106,7 @@
 
       </div>
       <i class="loadingTitle">loading...</i>
-      <svg>
+      <svg id="svgLoading">
         <filter id="gooey">
           <feGaussianBlur in="SourceGraphic" stdDeviation="10" />
           <feColorMatrix values="
